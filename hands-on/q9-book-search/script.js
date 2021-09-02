@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function(){
             }
         })
         let resultDiv =  document.querySelector('#results');
-        resultDiv.innerHTML = "";
+        resultDiv.innerHTML = "";   
         for (let book of response.data.docs) {
             let html = `
                 <li>${book.title} by ${book.author_name.join(", ")}</li>
