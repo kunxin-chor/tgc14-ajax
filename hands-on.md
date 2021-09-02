@@ -45,7 +45,7 @@ Your task:
 4. When the user has entered a **userId** in the text box and clicks on the 'Search' button, display the `firstName` and `lastName` of the user with that userId in any way you deem fit.
 
 # Q6 - Random Quote
-The URL `https://programming-quotes-api.herokuapp.com/quotes/random` will return a random quote each time it is called. 
+The URL `https://inspiration.goprogram.ai/` will return a random quote each time it is called. 
 
 Change `index.html` and `script.js` such that whenever you click on the button, a new quote will be display. If the button is clicked multiple times, the new quote
 should replace the original quote.
