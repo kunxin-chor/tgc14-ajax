@@ -3,6 +3,7 @@ window.addEventListener("DOMContentLoaded", function(){
     document.querySelector('#load-btn').addEventListener('click', async function(){
         let response = await axios.get(url);
         for (let book of response.data) {
+            console.log(book.povCharacters);
             let bookTitle = book.name;
             let pageNumbers = book.numberOfPages;
             let html = `<div class="card" style="padding:1em">
